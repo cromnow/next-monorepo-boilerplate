@@ -1,0 +1,15 @@
+{
+  "name": "arbete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn workspace @arbete/core run dev & yarn workspace @arbete/server node index.js",
+    "start:prod": "yarn workspace @arbete/core run build && yarn workspace @arbete/core run start & yarn workspace @arbete/server node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

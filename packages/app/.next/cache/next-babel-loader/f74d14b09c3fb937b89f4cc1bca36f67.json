@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createMuiTheme } from '@material-ui/core/styles';\nvar theme = createMuiTheme();\nexport default theme;","map":null,"metadata":{},"sourceType":"module"}

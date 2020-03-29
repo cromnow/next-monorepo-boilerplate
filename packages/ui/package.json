@@ -1,0 +1,9 @@
+{
+  "name": "@arbete/ui",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "react": "^16.13.1"
+  }
+}

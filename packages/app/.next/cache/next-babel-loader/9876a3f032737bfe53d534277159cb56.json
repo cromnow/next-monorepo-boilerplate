@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from '@material-ui/core';\nexport { ServerStyleSheets } from '@material-ui/core/styles';\nexport { default as theme } from './theme';","map":null,"metadata":{},"sourceType":"module"}
