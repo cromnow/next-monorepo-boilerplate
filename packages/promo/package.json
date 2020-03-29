@@ -1,0 +1,35 @@
+{
+    "name": "@arbete/promo",
+    "version": "1.0.0",
+    "main": "dist/index.html",
+    "module": "src/index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js --mode production",
+        "start": "webpack-dev-server --config webpack.config.dev.js --open"
+    },
+    "dependencies": {
+        "@arbete/ui": "1.0.0",
+        "react": "16.8.5",
+        "react-dom": "16.8.5"
+    },
+    "peerDependencies": {
+        "react": "^15.0.0 || ^16.0.0",
+        "react-dom": "^15.0.0 || ^16.0.0",
+        "styled-components": "^4.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.6",
+        "@babel/preset-env": "^7.8.6",
+        "@babel/preset-react": "^7.8.3",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-styled-components": "^1.10.7",
+        "common-config-webpack-plugin": "^2.0.0",
+        "html-loader": "^1.0.0",
+        "html-webpack-plugin": "^4.0.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3",
+        "webpack-merge": "^4.2.2"
+    }
+}
